@@ -7,6 +7,7 @@ __pycache__/
 venv/
 .env/
 .envrc
+.venv/
 
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
@@ -40,3 +41,5 @@ dist/
 # Ignore all .pkl files (models, preprocessors, etc.)
 *.pkl
 
+# It's a common practice to keep raw data but ignore processed data
+data/processed/
